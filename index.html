@@ -2,12 +2,40 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" href="data:,">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" href="data:,">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 		<title>DT Frontend Code Challenge</title>
 	</head>
 	<body>
-		<h1>DT Frontend Code Challenge</h1>
+		<form class="form">
+			<h4>
+				Sample Wizard form app
+			</h4>
+
+			<div class="form-input">
+				<label for="input1">Input 1</label>
+				<input type="text" name="input1" class="input" />
+			</div>
+
+			<div class="form-input">
+				<label for="input2">Input 2</label>
+				<input type="text" name="input2" class="input" />
+			</div>
+
+			<div class="form-date-input">
+				<label for="input3">Input 3</label>
+				<input type="text" name="input1" class="input day" placeholder="DD" />
+				<input type="text" name="input1" class="input month" placeholder="MM" />
+				<input type="text" name="input1" class="input year" placeholder="YYYY" />
+				<i class="fa fa-calendar"></i>
+			</div>
+
+			<div class="form-actions">
+				<button type="button" class="button button-secondary">Back</button>
+				<button type="button" class="button button-primary">Next</button>
+			</div>
+		</form>
 		<script type="module" src="/main.js"></script>
 	</body>
 </html>
